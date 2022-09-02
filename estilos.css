@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    height: 60px;
+
+}
+body{
+    background-color:  rgb(231, 228, 250);
+}
+main{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(231, 228, 250);
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 70%;
+    height: 100%;
+
+}
+.seccion1{
+    width:75%;
+    
+}
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    resize: none;
+    font-style: oblique;
+    font-size: 20px;
+    /* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+.btn-encriptar{
+    background-color: #0A3871;
+    color:azure;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(207, 197, 197, 0.08);
+border-radius: 30px;
+border-color: #0A3871;
+}
+.btn-desencriptar{
+    background-color: ghostwhite ;
+    color: #0A3871;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(224, 214, 214, 0.08);
+border-radius: 30px;
+border-color:rgb(144, 203, 255)
+}
+.btn-desencriptar, .btn-encriptar {
+    width: 15%;
+    height: 8%;
+    
+}
+.contenedor-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.seccion2{
+width: 20%;
+margin-right: 70px;
+background-color:ghostwhite;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+border-color: aliceblue;
+box-sizing: border-box;
+overflow: hidden;
+}
+.contenedor-muneco{
+    width: 100px;
+    height: 450px;
+    padding-top: 200px;
+    padding-left: 30px;
+    box-sizing: border-box;
+
+}
+.contenedor-h3{
+    width: 100%;
+    height: 12% ;
+    padding-left: 55px;
+    padding-top: 130px;
+    box-sizing: border-box;
+}
+.contenedor-deparrafo{
+    width: 100%;
+    height: 40%;
+    padding-top: 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.contenedor-encr{
+width: 100%;
+height: 70%;
+font-size: 24px;
+line-height: 150%;
+color: #495057;
+text-align: center;
+box-sizing: border-box;
+}
+
+.bx-clipboard{
+width: 188px;
+height: 50px;
+border-radius: 10%;
+color: #38597a;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+
+}
+.botton-copy{
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+footer{
+    width: 100%;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    
+
+}
+
+.ocultar {
+    display: none;
+}
+
